@@ -1,0 +1,494 @@
+/* Author
+
+Name: Nazefa Anjum;
+Email : nazefa0522@gmail.com;
+
+*/
+
+
+/*
+
+=====Index=====
+
+1. Header
+2. Home
+3. About Us
+4. Our Services
+5. Prices
+6. Contact
+7. Footer
+
+*/
+
+
+/*Global CSS*/
+body {
+	background-color: #f4f4f4;
+}
+
+.btn {
+	padding: 10px 40px;
+	color: #fff;
+	background-color: #ed145b;
+	display: block;
+	margin: 0 auto;
+	border-radius: 50px;
+	font-weight: 500;
+}
+
+.btn:hover {
+	background-color: #fff;
+	transition: 0.5s ease;
+}
+
+.no-padding {
+	padding: 0px 0px;
+	margin: 0px 0px;
+}
+
+
+/*Theme CSS*/
+
+/*Home section starts*/
+nav a h1 span {
+	color: #ed145b;
+}
+
+nav h1 {
+    font-weight: 700;
+}
+
+.fixed-top {
+	position: absolute;
+}
+
+.navbar {
+	background: none!important;
+}
+
+.header {
+	background: url(../img/banner.png)no-repeat;
+	background-size: cover;
+}
+
+.home h2 {
+    font-size: 46px;
+    text-align: center;
+    color: #fff;
+    padding-top: 100px;
+    font-weight: 300;
+}
+
+.home h2 span {
+	font-weight: 700;
+}
+
+.home span {
+	border-bottom: 2px solid #ed145b;
+	width: 200px;
+	display: block;
+	margin: 30px auto;
+}
+
+.home p {
+	text-align: center;
+	font-size: 22px;
+	color: #fff;
+	font-weight: 100;
+}
+
+.home button {
+	margin: 50px auto 100px;
+}
+/*Home section ends*/
+
+/*About Us section starts*/
+.about {
+	position: relative;
+}
+
+.about h2 {
+	color: #161616;
+	text-align: left;
+	font-size: 38px;
+	font-weight: 100;
+}
+
+.about span {
+	border-bottom: 2px solid #ed145b;
+	width: 200px;
+	display: block;
+	margin: 30px 0px;
+}
+
+.about p {
+	color: #161616;
+	text-align: left;
+	font-size: 15px;
+}
+
+.about a {
+    color: #ed145b;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    margin: 35px 10px;
+}
+
+.about i {
+    font-size: 26px;
+    margin: 0px 10px;
+}
+
+.about img {
+    height: 400px;
+}
+
+.macbook {
+    position: absolute;
+    right: 5px;
+}
+/*About Us section ends*/
+
+
+/*Our Services section ends*/
+.services {
+	background-color: #fff;
+}
+
+.services h2 {
+	font-size: 38px;
+	text-align: center;
+	color: #6e6e6e;
+	font-weight: 100;
+}
+
+.services span {
+	border-bottom: 2px solid #ed145b;
+	width: 200px;
+	display: block;
+	margin: 30px auto;
+}
+
+.services p {
+	font-size: 15px;
+	text-align: center;
+	color: #6e6e6e;
+}
+
+.baby-sec {
+	margin-top: 90px;
+}
+
+.baby-sec img {
+	display: block;
+	margin: 0 auto;
+}
+
+.baby-sec h4 {
+	text-align: center;
+	font-size: 15px;
+	color: #ed145b;
+	margin: 30px 0px;
+}
+/*Our Services section ends*/
+
+
+/*Quotes section starts*/
+.quotes {
+
+}
+
+.quotes h2 {
+    font-size: 25px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    color: #fff;
+    font-weight: 100;
+}
+
+.carousel-item {
+	background: url(../img/banner4.png)no-repeat;
+	background-size: cover;
+}
+
+.quotes i {
+    text-align: center;
+    display: block;
+    font-size: 50px;
+    color: #ed145b;
+    margin: 50px;
+}
+/*Quotes section ends*/
+
+
+/*Our Prices section starts*/
+.prices {
+
+}
+
+.prices h2 {
+	font-size: 38px;
+	text-align: center;
+	color: #6e6e6e;
+	font-weight: 100;
+}
+
+.prices span {
+	border-bottom: 2px solid #ed145b;
+	width: 200px;
+	display: block;
+	margin: 30px auto;
+}
+
+.btn-gray {
+	background-color: #f4f4f4;
+	padding: 10px 40px;
+	color: #161616;
+	display: block;
+	margin: 0 auto;
+	border-radius: 50px;
+	font-weight: 500;
+	border: none;
+}
+
+.price-card {
+	
+}
+
+.prices p {
+	font-size: 15px;
+	text-align: center;
+	color: #6e6e6e;
+	margin: 0px auto 80px;
+	width: 60%;
+}
+/*Our Prices section ends*/
+
+
+/*Feature section starts*/
+.feature {
+	background-color: #fff;
+}
+
+.feature span {
+	margin: 50px;
+	display: block;
+}
+
+.feature h6 {
+	color: #f14e84;
+}
+
+.feature p {
+	color: #787878;
+}
+
+.baby-feature {
+
+}
+/*Feature section ends*/
+
+
+/*Join Us section starts*/
+.join-us {
+	background: url(../img/banner3.png)no-repeat;
+	background-size: cover;
+	padding: 75px;
+}
+
+.join-us h2 {
+	font-size: 38px;
+	color: #fff;
+	font-weight: 100;
+}
+
+.join-us span {
+	font-weight: 700;
+}
+
+.join-us button {
+	padding: 10px 40px;
+	color: #ed145b;
+	background-color: #fff;
+	display: block;
+	margin: 0 auto;
+	border-radius: 50px;
+	font-weight: 500;
+	border: none;
+}
+
+.join-us button:hover {
+	background: #ed145b;
+	color: #fff;
+	transition: 0.5s ease;
+}
+/*Join Us section starts*/
+
+
+/*Our Latest Updates section starts*/
+.updates {
+	background-color: #fff;
+}
+
+.updates h2 {
+	font-size: 38px;
+	color: #161616;
+	font-weight: 100;
+	text-align: center;
+}
+
+.border-span {
+	border-bottom: 2px solid #ed145b;
+	width: 200px;
+	display: block;
+	margin: 30px auto;
+}
+
+.updates p {
+	font-size: 15px;
+	text-align: center;
+	color: #6e6e6e;
+	margin: 0 auto 80px;
+	width: 60%;
+}
+/*Our Latest Updates section ends*/
+
+
+/*Template section starts*/
+.template {
+	background: url(../img/banner4.png)no-repeat;
+	background-size: cover;
+}
+
+.template h2 {
+	font-size: 38px;
+	color: #fff;
+	font-weight: 100;
+	text-align: center;
+}
+
+.template span {
+	border-bottom: 2px solid #ed145b;
+	width: 200px;
+	display: block;
+	margin: 30px auto;
+}
+
+.template p {
+	font-size: 15px;
+	text-align: center;
+	color: #fff;
+	margin: 0 auto;
+	width: 60%;
+}
+
+.template button {
+	display: block;
+	margin: 100px auto 0px;
+}
+
+.template-content {
+	padding: 100px 0px;
+}
+/*Template section ends*/
+
+
+/*Download Now section starts*/
+.safari-content {
+
+}
+
+.download {
+
+}
+
+.download h2 {
+	font-weight: 100;
+}
+
+.download span {
+	border-bottom: 2px solid #ed145b;
+	width: 200px;
+	display: block;
+	margin: 30px 0px;
+}
+
+.download p {
+	
+}
+.download button {
+	display: block;
+	margin: 50px 0px 0px;
+}
+/*Download Now section ends*/
+
+
+/*Footer section starts*/
+footer {
+    background-color: #2b2b2b;
+    padding: 50px;
+}
+
+
+
+footer h6 {
+	font-size: 15px;
+	color: #fff;
+}
+/*Footer section ends*/
+
+
+
+
+
+
+/*Media Query starts*/
+
+/*Mobile device starts*/
+@media screen (min-width: 0px) and (max-width: 600px;) {
+	nav img {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.nav-item {
+	margin: 10px 0px;
+	}
+
+	.home h2 {
+		font-size: 20px;
+		padding-top: 10px;
+		text-align: center;
+	}
+
+	.macbook {
+		position: absolute;
+		top: 50%;
+	}
+
+	.about h2 {
+		text-align: center;
+	}
+
+	.about span {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.prices {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.prices img {
+		text-align: center;
+	}
+
+	.baby-feature {
+		text-align: center;
+		margin: 30px 0px;
+	}
+
+}
